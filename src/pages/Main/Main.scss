@@ -1,3 +1,18 @@
-.main {
-    
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // grid-area: 
+    .pics-list {
+        max-height: 90vh;
+        overflow-y: scroll;
+        
+    }
+    .name-list {
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
 }

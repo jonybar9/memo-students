@@ -17,7 +17,7 @@ class NameList extends Component {
             )
         })
         return (
-            <section>
+            <section className="name-list">
                 <ul>
                     {namesStr}
                 </ul>
