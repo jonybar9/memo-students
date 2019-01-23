@@ -11,8 +11,8 @@ class NameList extends Component {
         const names = this.state.names
         var namesStr = names.map(name => {
             return (
-                <li key={name}>
-                    <h3> {name}</h3>
+                <li className="name-container" key={name}>
+                    <h1> {name} </h1>
                 </li>
             )
         })

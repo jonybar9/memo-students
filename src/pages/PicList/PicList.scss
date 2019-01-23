@@ -1,1 +1,11 @@
-.picList {}
+.pics-list {
+    .student-container {
+        position: relative;
+        background-color: yellow;
+        .hint {
+            position: absolute;
+            background-color: greenyellow;
+            bottom: 0;
+        }
+    }
+}
