@@ -2,6 +2,9 @@
     .student-container {
         position: relative;
         background-color: yellow;
+        img {
+            height: 200px;
+        }
         .hint {
             position: absolute;
             background-color: greenyellow;
