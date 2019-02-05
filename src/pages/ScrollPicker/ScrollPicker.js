@@ -35,7 +35,7 @@ class ScrollPicker extends Component {
     handleStart(ev) {
         console.log(ev)
         if (ev.cancelable) {
-            ev.preventDefault();
+            // ev.preventDefault();
             ev.stopPropagation();
         }
         const touchInfo = this.getTouchInfo(ev);
